@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background-color: whitesmoke;
 }
 
 #my-name {
@@ -23,7 +24,7 @@ html {
   justify-content: space-between;
 }
 
-#bio-content {
+#content {
   text-wrap: wrap;
   width: 45%;
   margin-left: 3%;
@@ -38,7 +39,6 @@ html {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 5%;
 }
 
 nav > ul {
@@ -57,4 +57,33 @@ nav li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+section {
+  margin-bottom: 15px;
+}
+
+div.scroll-container {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+#projects-title {
+  font-weight: bold;
+  font-size: xx-large;
+  margin: 30px;
+  text-align: center;
+}
+
+#Experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
