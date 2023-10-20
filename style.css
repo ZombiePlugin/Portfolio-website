@@ -1,0 +1,38 @@
+#my-name {
+  position: absolute;
+  top: 28%;
+  left: 5%;
+  font-size: 72px;
+  font-weight: bold;
+  text-shadow: 4px 3px 0 #7a7a7a;
+  color: #ffffff;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+#side {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+#bio-content {
+  text-wrap: wrap;
+  width: 45%;
+  margin-left: 3%;
+  font-size: x-large;
+}
+
+.page {
+  position: relative;
+  text-align: left;
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+}
