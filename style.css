@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #my-name {
   position: absolute;
   top: 28%;
@@ -13,7 +17,7 @@
   flex-direction: column;
 }
 
-#side {
+#Bio {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -35,4 +39,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5%;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: right;
+  list-style-type: none;
+}
+
+nav li {
+  margin-right: 5%;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
